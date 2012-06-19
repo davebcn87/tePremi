@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZBarSDK.h"
 
-@interface ultimPasViewController : UIViewController
+@interface ultimPasViewController : UIViewController <ZBarReaderDelegate>
 
 @end

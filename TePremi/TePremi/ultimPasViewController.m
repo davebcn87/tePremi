@@ -8,6 +8,7 @@
 
 #import "ultimPasViewController.h"
 
+
 @interface ultimPasViewController ()
 
 @end
@@ -25,10 +26,11 @@
 
 - (void)viewDidLoad
 {
+    [self showPicker];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
-/*
+
 - (void) showPicker
 {
     // ADD: present a barcode reader that scans from the camera feed
@@ -47,7 +49,6 @@
     // present and release the controller
     [self presentModalViewController: reader
                             animated: YES];
-[reader release];
 }
 
 - (void) imagePickerController: (UIImagePickerController*) reader
@@ -62,16 +63,17 @@
         break;
     
     // EXAMPLE: do something useful with the barcode data
-    resultText.text = symbol.data;
+//    resultText.text = symbol.data;
+    
+    NSLog(@"%@",symbol.data);
     
     // EXAMPLE: do something useful with the barcode image
-    resultImage.image =
-    [info objectForKey: UIImagePickerControllerOriginalImage];
+   /* resultImage.image =
+    [info objectForKey: UIImagePickerControllerOriginalImage];*/
     
     // ADD: dismiss the controller (NB dismiss from the *reader*!)
     [reader dismissModalViewControllerAnimated: YES];
 }
- */
 
 - (void)viewDidUnload
 {
