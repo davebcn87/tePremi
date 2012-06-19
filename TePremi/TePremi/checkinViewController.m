@@ -25,6 +25,10 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
 - (void)viewDidLoad
 {
     [scrollView setContentSize:CGSizeMake(320, 691)];
@@ -42,7 +46,7 @@
 - (IBAction) checkIn:(id)sender
 {
     categoriesViewController *categoriesVC = [self.storyboard instantiateViewControllerWithIdentifier:@"categoriesVC"];
-    [self presentModalViewController:categoriesVC animated:YES];
+    [self.navigationController pushViewController:categoriesVC animated:YES];
 }
     
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

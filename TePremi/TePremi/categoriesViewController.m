@@ -15,28 +15,15 @@
 
 @implementation categoriesViewController
 @synthesize scrollView = _scrollView;
+@synthesize tableView = _tableView;
 
 @synthesize categories = _categories;
 @synthesize seleccionades = _seleccionades;
 
 - (NSMutableArray *) seleccionades
 {
-    if (_seleccionades) return _seleccionades = [[NSMutableArray alloc]init];
+    if (!_seleccionades) return _seleccionades = [[NSMutableArray alloc]init];
     else return _seleccionades;
-}
-- (NSMutableArray *) categories
-{
-    if (!_categories){
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"categories" ofType:@"plist"];
-        NSMutableArray *categories = [[NSMutableArray alloc] initWithContentsOfFile:path];
-        return _categories = categories;
-        for (NSString *categoria in categories) {
-            [self.seleccionades addObject:[NSNumber numberWithBool:NO]];
-        }
-    }
-    else {
-        return _categories;
-    }
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -49,14 +36,30 @@
 
 - (void)viewDidLoad
 {
-    [self.scrollView setContentSize:CGSizeMake(320, 2.261)];
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+    
+    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackTranslucent];
+    [self.scrollView setContentSize:CGSizeMake(320, 2000)];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"categories" ofType:@"plist"];
+    NSMutableArray *categories = [[NSMutableArray alloc] initWithContentsOfFile:path];
+    self.categories = categories;
+    
+    for (NSString *categoria in categories) {
+        [self.seleccionades addObject:[NSNumber numberWithBool:NO]];
+    }
+    
+    [self setScrollView:nil];
+    
+    [self.tableView reloadData];
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
 
 - (void)viewDidUnload
 {
-    [self setScrollView:nil];
+    [self setTableView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -80,12 +83,12 @@
     UILabel *titolCat = (UILabel *)[categoria viewWithTag:1];
     titolCat.text = [self.categories objectAtIndex:indexPath.row];
     
-    //UIImageView *selected = (UIImageView *)[categoria viewWithTag:2];
+    UIImageView *selected = (UIImageView *)[categoria viewWithTag:2];
     if ([[self.seleccionades objectAtIndex:indexPath.row] boolValue]){
-        categoria.accessoryType = UITableViewCellAccessoryCheckmark;
+        selected.hidden = NO;
     }
     else {
-        categoria.accessoryType = UITableViewCellAccessoryNone;
+        selected.hidden = YES;
     }
     
     return categoria;
@@ -99,5 +102,6 @@
 {
     BOOL valor = [[self.seleccionades objectAtIndex:indexPath.row] boolValue];
     [self.seleccionades replaceObjectAtIndex:indexPath.row withObject:[NSNumber numberWithBool:!valor]];
+    [self.tableView reloadData];
 }
 @end
