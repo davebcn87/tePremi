@@ -14,6 +14,7 @@
 @end
 
 @implementation ultimPasViewController
+@synthesize scrollView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,6 +27,8 @@
 
 - (void)viewDidLoad
 {
+    self.hidesBottomBarWhenPushed = YES;
+    [scrollView setContentSize:CGSizeMake(320, 720)];
     [self showPicker];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
@@ -77,6 +80,7 @@
 
 - (void)viewDidUnload
 {
+    [self setScrollView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

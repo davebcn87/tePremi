@@ -57,6 +57,7 @@
 		A00777EF159071140055399E /* checkinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00777EE159071140055399E /* checkinViewController.m */; };
 		A00777F21590711B0055399E /* instruccionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00777F11590711B0055399E /* instruccionsViewController.m */; };
 		A00777F5159071250055399E /* contenidorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00777F4159071250055399E /* contenidorsViewController.m */; };
+		A01591C71590C21400EAFBD3 /* OK2.png in Resources */ = {isa = PBXBuildFile; fileRef = A01591C61590C21400EAFBD3 /* OK2.png */; };
 		A0596F921590819B0009B33E /* fons-fusta.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596F911590819B0009B33E /* fons-fusta.png */; };
 		A0596F9C1590823A0009B33E /* boto-check-in.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596F941590823A0009B33E /* boto-check-in.png */; };
 		A0596F9D1590823A0009B33E /* caixa-arbres.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596F951590823A0009B33E /* caixa-arbres.png */; };
@@ -80,6 +81,7 @@
 		A0596FCD159092C50009B33E /* categoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0596FCC159092C50009B33E /* categoriesViewController.m */; };
 		A0596FD3159095020009B33E /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0596FD2159095010009B33E /* categories.plist */; };
 		A0596FDA15909F6A0009B33E /* cellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596FD915909F6A0009B33E /* cellBackground.png */; };
+		A06E9F881590BB570091059B /* okViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06E9F871590BB570091059B /* okViewController.m */; };
 		A088BF351590A28D00845F35 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = A088BF331590A28D00845F35 /* tick.png */; };
 		A088BF361590A28D00845F35 /* tick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A088BF341590A28D00845F35 /* tick@2x.png */; };
 		A088BF391590B36100845F35 /* cancelar.png in Resources */ = {isa = PBXBuildFile; fileRef = A088BF371590B36100845F35 /* cancelar.png */; };
@@ -169,6 +171,7 @@
 		A00777F11590711B0055399E /* instruccionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = instruccionsViewController.m; sourceTree = "<group>"; };
 		A00777F3159071250055399E /* contenidorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contenidorsViewController.h; sourceTree = "<group>"; };
 		A00777F4159071250055399E /* contenidorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contenidorsViewController.m; sourceTree = "<group>"; };
+		A01591C61590C21400EAFBD3 /* OK2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OK2.png; sourceTree = "<group>"; };
 		A0596F911590819B0009B33E /* fons-fusta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fons-fusta.png"; path = "Imatges/fons-fusta.png"; sourceTree = "<group>"; };
 		A0596F941590823A0009B33E /* boto-check-in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "boto-check-in.png"; path = "Imatges/boto-check-in.png"; sourceTree = "<group>"; };
 		A0596F951590823A0009B33E /* caixa-arbres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "caixa-arbres.png"; path = "Imatges/caixa-arbres.png"; sourceTree = "<group>"; };
@@ -193,6 +196,8 @@
 		A0596FCC159092C50009B33E /* categoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = categoriesViewController.m; sourceTree = "<group>"; };
 		A0596FD2159095010009B33E /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
 		A0596FD915909F6A0009B33E /* cellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cellBackground.png; path = Imatges/cellBackground.png; sourceTree = "<group>"; };
+		A06E9F861590BB570091059B /* okViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = okViewController.h; sourceTree = "<group>"; };
+		A06E9F871590BB570091059B /* okViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = okViewController.m; sourceTree = "<group>"; };
 		A088BF331590A28D00845F35 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tick.png; path = Imatges/tick.png; sourceTree = "<group>"; };
 		A088BF341590A28D00845F35 /* tick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tick@2x.png"; path = "Imatges/tick@2x.png"; sourceTree = "<group>"; };
 		A088BF371590B36100845F35 /* cancelar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancelar.png; path = Imatges/cancelar.png; sourceTree = "<group>"; };
@@ -419,6 +424,8 @@
 				A0596FCC159092C50009B33E /* categoriesViewController.m */,
 				15008D9E1590A731001BBECB /* detailContenidorViewController.h */,
 				15008D9F1590A731001BBECB /* detailContenidorViewController.m */,
+				A06E9F861590BB570091059B /* okViewController.h */,
+				A06E9F871590BB570091059B /* okViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -426,6 +433,7 @@
 		A0B9EF2A159072FC002F0457 /* Imatges */ = {
 			isa = PBXGroup;
 			children = (
+				A01591C61590C21400EAFBD3 /* OK2.png */,
 				A088BF371590B36100845F35 /* cancelar.png */,
 				A088BF381590B36100845F35 /* continuar.png */,
 				A088BF331590A28D00845F35 /* tick.png */,
@@ -622,6 +630,7 @@
 				A088BF661590B7E700845F35 /* zbar-help.html in Resources */,
 				A088BF671590B7E700845F35 /* zbar-helpicons.png in Resources */,
 				A088BF681590B7E700845F35 /* zbar-samples.png in Resources */,
+				A01591C71590C21400EAFBD3 /* OK2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +652,7 @@
 				A0596FCD159092C50009B33E /* categoriesViewController.m in Sources */,
 				A088BF411590B5E400845F35 /* ultimPasViewController.m in Sources */,
 				15008DA11590A731001BBECB /* detailContenidorViewController.m in Sources */,
+				A06E9F881590BB570091059B /* okViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

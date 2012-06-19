@@ -11,4 +11,6 @@
 
 @interface ultimPasViewController : UIViewController <ZBarReaderDelegate>
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
 @end
