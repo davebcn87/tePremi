@@ -28,7 +28,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
-
+/*
 - (void) showPicker
 {
     // ADD: present a barcode reader that scans from the camera feed
@@ -47,7 +47,7 @@
     // present and release the controller
     [self presentModalViewController: reader
                             animated: YES];
-    [reader release];
+[reader release];
 }
 
 - (void) imagePickerController: (UIImagePickerController*) reader
@@ -71,6 +71,7 @@
     // ADD: dismiss the controller (NB dismiss from the *reader*!)
     [reader dismissModalViewControllerAnimated: YES];
 }
+ */
 
 - (void)viewDidUnload
 {
