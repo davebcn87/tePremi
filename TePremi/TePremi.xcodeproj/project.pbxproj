@@ -19,6 +19,7 @@
 		15008D6F159096C4001BBECB /* 3A@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008D63159096C4001BBECB /* 3A@2x.png */; };
 		15008D70159096C4001BBECB /* 3R.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008D64159096C4001BBECB /* 3R.png */; };
 		15008D71159096C4001BBECB /* 3R@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008D65159096C4001BBECB /* 3R@2x.png */; };
+		15008D7315909EDC001BBECB /* barrarosa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008D7215909EDC001BBECB /* barrarosa@2x.png */; };
 		15661FCC159079390015B6B6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15661FCB159079390015B6B6 /* CoreLocation.framework */; };
 		15661FCF1590793F0015B6B6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15661FCE1590793F0015B6B6 /* MapKit.framework */; };
 		15661FD315907A890015B6B6 /* LocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 15661FD215907A890015B6B6 /* LocationAnnotation.m */; };
@@ -85,6 +86,7 @@
 		15008D63159096C4001BBECB /* 3A@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3A@2x.png"; path = "Imatges/3A@2x.png"; sourceTree = "<group>"; };
 		15008D64159096C4001BBECB /* 3R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3R.png; path = Imatges/3R.png; sourceTree = "<group>"; };
 		15008D65159096C4001BBECB /* 3R@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3R@2x.png"; path = "Imatges/3R@2x.png"; sourceTree = "<group>"; };
+		15008D7215909EDC001BBECB /* barrarosa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "barrarosa@2x.png"; path = "Imatges/barrarosa@2x.png"; sourceTree = "<group>"; };
 		15661FCB159079390015B6B6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		15661FCE1590793F0015B6B6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		15661FD115907A890015B6B6 /* LocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAnnotation.h; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				A0596FD915909F6A0009B33E /* cellBackground.png */,
+				15008D7215909EDC001BBECB /* barrarosa@2x.png */,
 				15008D5A159096C4001BBECB /* 1A.png */,
 				15008D5B159096C4001BBECB /* 1A@2x.png */,
 				15008D5C159096C4001BBECB /* 1R.png */,
@@ -400,6 +403,7 @@
 				15008D70159096C4001BBECB /* 3R.png in Resources */,
 				15008D71159096C4001BBECB /* 3R@2x.png in Resources */,
 				A0596FDA15909F6A0009B33E /* cellBackground.png in Resources */,
+				15008D7315909EDC001BBECB /* barrarosa@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
