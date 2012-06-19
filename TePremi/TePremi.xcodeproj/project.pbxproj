@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15008D4E15909368001BBECB /* 1A.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008D4815909368001BBECB /* 1A.png */; };
+		15008D4F15909368001BBECB /* 1R.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008D4915909368001BBECB /* 1R.png */; };
+		15008D5015909368001BBECB /* 2A.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008D4A15909368001BBECB /* 2A.png */; };
+		15008D5115909368001BBECB /* 2R.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008D4B15909368001BBECB /* 2R.png */; };
+		15008D5215909368001BBECB /* 3A.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008D4C15909368001BBECB /* 3A.png */; };
+		15008D5315909368001BBECB /* 3R.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008D4D15909368001BBECB /* 3R.png */; };
 		15661FCC159079390015B6B6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15661FCB159079390015B6B6 /* CoreLocation.framework */; };
 		15661FCF1590793F0015B6B6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15661FCE1590793F0015B6B6 /* MapKit.framework */; };
 		15661FD315907A890015B6B6 /* LocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 15661FD215907A890015B6B6 /* LocationAnnotation.m */; };
+		1566200415907D080015B6B6 /* puntsverds.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1566200315907D080015B6B6 /* puntsverds.txt */; };
 		15D6F2F315906E7E0043FDF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D6F2F215906E7E0043FDF1 /* UIKit.framework */; };
 		15D6F2F515906E7E0043FDF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D6F2F415906E7E0043FDF1 /* Foundation.framework */; };
 		15D6F2F715906E7E0043FDF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D6F2F615906E7E0043FDF1 /* CoreGraphics.framework */; };
@@ -59,10 +66,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15008D4815909368001BBECB /* 1A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1A.png; sourceTree = "<group>"; };
+		15008D4915909368001BBECB /* 1R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1R.png; sourceTree = "<group>"; };
+		15008D4A15909368001BBECB /* 2A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2A.png; sourceTree = "<group>"; };
+		15008D4B15909368001BBECB /* 2R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2R.png; sourceTree = "<group>"; };
+		15008D4C15909368001BBECB /* 3A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3A.png; sourceTree = "<group>"; };
+		15008D4D15909368001BBECB /* 3R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3R.png; sourceTree = "<group>"; };
 		15661FCB159079390015B6B6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		15661FCE1590793F0015B6B6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		15661FD115907A890015B6B6 /* LocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAnnotation.h; sourceTree = "<group>"; };
 		15661FD215907A890015B6B6 /* LocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAnnotation.m; sourceTree = "<group>"; };
+		1566200315907D080015B6B6 /* puntsverds.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = puntsverds.txt; sourceTree = "<group>"; };
 		15D6F2EE15906E7E0043FDF1 /* TePremi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TePremi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D6F2F215906E7E0043FDF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		15D6F2F415906E7E0043FDF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -178,6 +192,7 @@
 		15D6F2F815906E7E0043FDF1 /* TePremi */ = {
 			isa = PBXGroup;
 			children = (
+				1566200315907D080015B6B6 /* puntsverds.txt */,
 				15D6F30115906E7E0043FDF1 /* AppDelegate.h */,
 				15D6F30215906E7E0043FDF1 /* AppDelegate.m */,
 				15D6F30415906E7E0043FDF1 /* MainStoryboard.storyboard */,
@@ -244,6 +259,12 @@
 				A0596F9A1590823A0009B33E /* caixa-arbres@2x.png */,
 				A0596F9B1590823A0009B33E /* caixa-visites@2x.png */,
 				A0596F911590819B0009B33E /* fons-fusta.png */,
+				15008D4815909368001BBECB /* 1A.png */,
+				15008D4915909368001BBECB /* 1R.png */,
+				15008D4A15909368001BBECB /* 2A.png */,
+				15008D4B15909368001BBECB /* 2R.png */,
+				15008D4C15909368001BBECB /* 3A.png */,
+				15008D4D15909368001BBECB /* 3R.png */,
 				A0B9EF2B1590739D002F0457 /* containers.png */,
 				A0B9EF2C1590739D002F0457 /* info.png */,
 				A0B9EF2D1590739D002F0457 /* instruccions.png */,
@@ -343,6 +364,13 @@
 				A0596FC61590900B0009B33E /* progres@2x.png in Resources */,
 				A0596FC91590907B0009B33E /* queHasPortat.png in Resources */,
 				A0596FCA1590907B0009B33E /* queHasPortat@2x.png in Resources */,
+				1566200415907D080015B6B6 /* puntsverds.txt in Resources */,
+				15008D4E15909368001BBECB /* 1A.png in Resources */,
+				15008D4F15909368001BBECB /* 1R.png in Resources */,
+				15008D5015909368001BBECB /* 2A.png in Resources */,
+				15008D5115909368001BBECB /* 2R.png in Resources */,
+				15008D5215909368001BBECB /* 3A.png in Resources */,
+				15008D5315909368001BBECB /* 3R.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

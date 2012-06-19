@@ -1,0 +1,17 @@
+{"mobil" : [
+{"adreça":"Marina/Almogàvers, Barcelona","horari":"dijous de 16.00 a 19.30 h"}
+],
+"barri" : [
+{"adreça":"Clot, Barcelona"},
+{"adreça":"Poblenou, Barcelona"},
+{"adreça":"Sant Martí de Provençals, Barcelona"}
+],
+"zona" : [
+{"adreça":"Forum, Barcelona"},
+{"adreça":"Collserola, Barcelona"},
+{"adreça":"Montjuïc, Barcelona"}
+],
+"escolar" : [
+{"adreça":"","horari":""}
+],
+}

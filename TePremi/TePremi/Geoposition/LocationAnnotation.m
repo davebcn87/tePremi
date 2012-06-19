@@ -15,15 +15,15 @@
 }
 
 
-- (id)initWithCLRegion:(CLRegion *)newRegion andFileName:(NSString *)aFileName
+- (id)initWithCLRegion:(CLRegion *)newRegion andAddress:(NSString *)aAddress andTime:(NSString *)aTime
 {
 	self = [self init];
 	
 	if (self != nil) {
 		self.region = newRegion;
 		self.coordinate = region.center;
-		self.title = aFileName;
-        self.subtitle = @"";
+		self.title = aAddress;
+        self.subtitle = aTime;
 	}		
 
 	return self;		
