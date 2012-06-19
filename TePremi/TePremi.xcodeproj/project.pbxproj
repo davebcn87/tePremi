@@ -67,6 +67,7 @@
 		A00777F21590711B0055399E /* instruccionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00777F11590711B0055399E /* instruccionsViewController.m */; };
 		A00777F5159071250055399E /* contenidorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00777F4159071250055399E /* contenidorsViewController.m */; };
 		A01591C71590C21400EAFBD3 /* OK2.png in Resources */ = {isa = PBXBuildFile; fileRef = A01591C61590C21400EAFBD3 /* OK2.png */; };
+		A01591CD1590C50A00EAFBD3 /* reciclaPP.png in Resources */ = {isa = PBXBuildFile; fileRef = A01591CC1590C50A00EAFBD3 /* reciclaPP.png */; };
 		A0596F921590819B0009B33E /* fons-fusta.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596F911590819B0009B33E /* fons-fusta.png */; };
 		A0596F9C1590823A0009B33E /* boto-check-in.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596F941590823A0009B33E /* boto-check-in.png */; };
 		A0596F9D1590823A0009B33E /* caixa-arbres.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596F951590823A0009B33E /* caixa-arbres.png */; };
@@ -191,6 +192,7 @@
 		A00777F3159071250055399E /* contenidorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contenidorsViewController.h; sourceTree = "<group>"; };
 		A00777F4159071250055399E /* contenidorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contenidorsViewController.m; sourceTree = "<group>"; };
 		A01591C61590C21400EAFBD3 /* OK2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OK2.png; sourceTree = "<group>"; };
+		A01591CC1590C50A00EAFBD3 /* reciclaPP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reciclaPP.png; sourceTree = "<group>"; };
 		A0596F911590819B0009B33E /* fons-fusta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fons-fusta.png"; path = "Imatges/fons-fusta.png"; sourceTree = "<group>"; };
 		A0596F941590823A0009B33E /* boto-check-in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "boto-check-in.png"; path = "Imatges/boto-check-in.png"; sourceTree = "<group>"; };
 		A0596F951590823A0009B33E /* caixa-arbres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "caixa-arbres.png"; path = "Imatges/caixa-arbres.png"; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 		15D6F2F915906E7E0043FDF1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A01591CC1590C50A00EAFBD3 /* reciclaPP.png */,
 				A0B9EF2A159072FC002F0457 /* Imatges */,
 				15D6F2FA15906E7E0043FDF1 /* TePremi-Info.plist */,
 				15D6F2FB15906E7E0043FDF1 /* InfoPlist.strings */,
@@ -668,6 +671,7 @@
 				15008DBC1590BB4F001BBECB /* generarCodi@2x.png in Resources */,
 				15008DBF1590BC2F001BBECB /* loginButton.png in Resources */,
 				15008DC01590BC2F001BBECB /* loginButton@2x.png in Resources */,
+				A01591CD1590C50A00EAFBD3 /* reciclaPP.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

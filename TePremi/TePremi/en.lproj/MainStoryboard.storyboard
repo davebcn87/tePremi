@@ -412,8 +412,8 @@ El que no s'hi pot llençar: bosses d'infusió, paper de cuina brut d'oli i rest
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="eslogan.png" id="rCn-Rs-dWJ">
-                                <rect key="frame" x="79" y="25" width="163" height="80"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="eslogan.png" id="Joy-kB-6OJ">
+                                <rect key="frame" x="55" y="31" width="211" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginCells.png" id="SY7-Rq-Ufp">
