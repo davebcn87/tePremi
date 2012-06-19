@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15D6F2F315906E7E0043FDF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D6F2F215906E7E0043FDF1 /* UIKit.framework */; };
+		15D6F2F515906E7E0043FDF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D6F2F415906E7E0043FDF1 /* Foundation.framework */; };
+		15D6F2F715906E7E0043FDF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D6F2F615906E7E0043FDF1 /* CoreGraphics.framework */; };
+		15D6F2FD15906E7E0043FDF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15D6F2FB15906E7E0043FDF1 /* InfoPlist.strings */; };
+		15D6F2FF15906E7E0043FDF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6F2FE15906E7E0043FDF1 /* main.m */; };
+		15D6F30315906E7E0043FDF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6F30215906E7E0043FDF1 /* AppDelegate.m */; };
+		15D6F30615906E7E0043FDF1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D6F30415906E7E0043FDF1 /* MainStoryboard.storyboard */; };
+		15D6F30915906E7E0043FDF1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6F30815906E7E0043FDF1 /* FirstViewController.m */; };
+		15D6F30B15906E7E0043FDF1 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D6F30A15906E7E0043FDF1 /* first.png */; };
+		15D6F30D15906E7E0043FDF1 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D6F30C15906E7E0043FDF1 /* first@2x.png */; };
+		15D6F31015906E7E0043FDF1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6F30F15906E7E0043FDF1 /* SecondViewController.m */; };
+		15D6F31215906E7E0043FDF1 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D6F31115906E7E0043FDF1 /* second.png */; };
+		15D6F31415906E7E0043FDF1 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D6F31315906E7E0043FDF1 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15D6F2EE15906E7E0043FDF1 /* TePremi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TePremi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D6F2F215906E7E0043FDF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		15D6F2F415906E7E0043FDF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15D6F2F615906E7E0043FDF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		15D6F2FA15906E7E0043FDF1 /* TePremi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TePremi-Info.plist"; sourceTree = "<group>"; };
+		15D6F2FC15906E7E0043FDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		15D6F2FE15906E7E0043FDF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15D6F30015906E7E0043FDF1 /* TePremi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TePremi-Prefix.pch"; sourceTree = "<group>"; };
+		15D6F30115906E7E0043FDF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15D6F30215906E7E0043FDF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15D6F30515906E7E0043FDF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		15D6F30715906E7E0043FDF1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		15D6F30815906E7E0043FDF1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		15D6F30A15906E7E0043FDF1 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		15D6F30C15906E7E0043FDF1 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		15D6F30E15906E7E0043FDF1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		15D6F30F15906E7E0043FDF1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		15D6F31115906E7E0043FDF1 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		15D6F31315906E7E0043FDF1 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D6F2EB15906E7E0043FDF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6F2F315906E7E0043FDF1 /* UIKit.framework in Frameworks */,
+				15D6F2F515906E7E0043FDF1 /* Foundation.framework in Frameworks */,
+				15D6F2F715906E7E0043FDF1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D6F2E315906E7E0043FDF1 = {
+			isa = PBXGroup;
+			children = (
+				15D6F2F815906E7E0043FDF1 /* TePremi */,
+				15D6F2F115906E7E0043FDF1 /* Frameworks */,
+				15D6F2EF15906E7E0043FDF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15D6F2EF15906E7E0043FDF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D6F2EE15906E7E0043FDF1 /* TePremi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D6F2F115906E7E0043FDF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15D6F2F215906E7E0043FDF1 /* UIKit.framework */,
+				15D6F2F415906E7E0043FDF1 /* Foundation.framework */,
+				15D6F2F615906E7E0043FDF1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15D6F2F815906E7E0043FDF1 /* TePremi */ = {
+			isa = PBXGroup;
+			children = (
+				15D6F30115906E7E0043FDF1 /* AppDelegate.h */,
+				15D6F30215906E7E0043FDF1 /* AppDelegate.m */,
+				15D6F30415906E7E0043FDF1 /* MainStoryboard.storyboard */,
+				15D6F30715906E7E0043FDF1 /* FirstViewController.h */,
+				15D6F30815906E7E0043FDF1 /* FirstViewController.m */,
+				15D6F30A15906E7E0043FDF1 /* first.png */,
+				15D6F30C15906E7E0043FDF1 /* first@2x.png */,
+				15D6F30E15906E7E0043FDF1 /* SecondViewController.h */,
+				15D6F30F15906E7E0043FDF1 /* SecondViewController.m */,
+				15D6F31115906E7E0043FDF1 /* second.png */,
+				15D6F31315906E7E0043FDF1 /* second@2x.png */,
+				15D6F2F915906E7E0043FDF1 /* Supporting Files */,
+			);
+			path = TePremi;
+			sourceTree = "<group>";
+		};
+		15D6F2F915906E7E0043FDF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15D6F2FA15906E7E0043FDF1 /* TePremi-Info.plist */,
+				15D6F2FB15906E7E0043FDF1 /* InfoPlist.strings */,
+				15D6F2FE15906E7E0043FDF1 /* main.m */,
+				15D6F30015906E7E0043FDF1 /* TePremi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D6F2ED15906E7E0043FDF1 /* TePremi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D6F31715906E7E0043FDF1 /* Build configuration list for PBXNativeTarget "TePremi" */;
+			buildPhases = (
+				15D6F2EA15906E7E0043FDF1 /* Sources */,
+				15D6F2EB15906E7E0043FDF1 /* Frameworks */,
+				15D6F2EC15906E7E0043FDF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TePremi;
+			productName = TePremi;
+			productReference = 15D6F2EE15906E7E0043FDF1 /* TePremi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15D6F2E515906E7E0043FDF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 15D6F2E815906E7E0043FDF1 /* Build configuration list for PBXProject "TePremi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15D6F2E315906E7E0043FDF1;
+			productRefGroup = 15D6F2EF15906E7E0043FDF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D6F2ED15906E7E0043FDF1 /* TePremi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15D6F2EC15906E7E0043FDF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6F2FD15906E7E0043FDF1 /* InfoPlist.strings in Resources */,
+				15D6F30615906E7E0043FDF1 /* MainStoryboard.storyboard in Resources */,
+				15D6F30B15906E7E0043FDF1 /* first.png in Resources */,
+				15D6F30D15906E7E0043FDF1 /* first@2x.png in Resources */,
+				15D6F31215906E7E0043FDF1 /* second.png in Resources */,
+				15D6F31415906E7E0043FDF1 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D6F2EA15906E7E0043FDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6F2FF15906E7E0043FDF1 /* main.m in Sources */,
+				15D6F30315906E7E0043FDF1 /* AppDelegate.m in Sources */,
+				15D6F30915906E7E0043FDF1 /* FirstViewController.m in Sources */,
+				15D6F31015906E7E0043FDF1 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15D6F2FB15906E7E0043FDF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D6F2FC15906E7E0043FDF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		15D6F30415906E7E0043FDF1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D6F30515906E7E0043FDF1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15D6F31515906E7E0043FDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15D6F31615906E7E0043FDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15D6F31815906E7E0043FDF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TePremi/TePremi-Prefix.pch";
+				INFOPLIST_FILE = "TePremi/TePremi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		15D6F31915906E7E0043FDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TePremi/TePremi-Prefix.pch";
+				INFOPLIST_FILE = "TePremi/TePremi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D6F2E815906E7E0043FDF1 /* Build configuration list for PBXProject "TePremi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D6F31515906E7E0043FDF1 /* Debug */,
+				15D6F31615906E7E0043FDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D6F31715906E7E0043FDF1 /* Build configuration list for PBXNativeTarget "TePremi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D6F31815906E7E0043FDF1 /* Debug */,
+				15D6F31915906E7E0043FDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15D6F2E515906E7E0043FDF1 /* Project object */;
+}
