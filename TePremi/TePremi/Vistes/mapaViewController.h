@@ -29,8 +29,8 @@ typedef enum{
 @property(nonatomic, strong) NSMutableArray *iBarriPins;
 @property(nonatomic, strong) NSMutableArray *iMobilPins;
 
-- (IBAction) showMobilPoints:(id)sender;
-- (IBAction) showZonaPoints:(id)sender;
-- (IBAction) showBarriPoints:(id)sender;
+- (IBAction) buttonBarriPressed:(id)sender;
+- (IBAction) buttonZonaPressed:(id)sender;
+- (IBAction) buttonMobilPressed:(id)sender;
 
 @end
