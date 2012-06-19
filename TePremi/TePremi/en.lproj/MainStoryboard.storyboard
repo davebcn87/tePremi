@@ -333,7 +333,7 @@ El que no s'hi pot llençar: bosses d'infusió, paper de cuina brut d'oli i rest
                                             <rect key="frame" x="12" y="6" width="300" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DXb-QD-D3l">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DXb-QD-D3l">
                                                     <rect key="frame" x="0.0" y="2" width="100" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -365,7 +365,7 @@ El que no s'hi pot llençar: bosses d'infusió, paper de cuina brut d'oli i rest
                                                         <action selector="buttonZonaPressed:" destination="Sga-pN-h23" eventType="touchUpInside" id="OU9-7f-IB5"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qBQ-Tx-bNl">
+                                                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qBQ-Tx-bNl">
                                                     <rect key="frame" x="200" y="2" width="100" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -425,7 +425,7 @@ El que no s'hi pot llençar: bosses d'infusió, paper de cuina brut d'oli i rest
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="NQv-t5-wLX" id="s1P-Rl-ynZ"/>
                                 </connections>
@@ -435,7 +435,7 @@ El que no s'hi pot llençar: bosses d'infusió, paper de cuina brut d'oli i rest
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="NQv-t5-wLX" id="PZT-9d-jZ8"/>
                                 </connections>
@@ -775,7 +775,7 @@ El que no s'hi pot llençar: bosses d'infusió, paper de cuina brut d'oli i rest
     <resources>
         <image name="1A.png" width="100" height="30"/>
         <image name="1R.png" width="100" height="30"/>
-        <image name="2.png" width="320" height="774"/>
+        <image name="2.png" width="640" height="1548"/>
         <image name="2A.png" width="100" height="30"/>
         <image name="2R.png" width="100" height="30"/>
         <image name="3A.png" width="100" height="30"/>

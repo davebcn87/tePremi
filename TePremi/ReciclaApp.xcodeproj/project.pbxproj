@@ -37,8 +37,6 @@
 		15008D9D1590A2B2001BBECB /* verd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008D9B1590A2B2001BBECB /* verd@2x.png */; };
 		15008DA11590A731001BBECB /* detailContenidorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15008D9F1590A731001BBECB /* detailContenidorViewController.m */; };
 		15008DA41590AC5E001BBECB /* liia.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008DA31590AC5E001BBECB /* liia.png */; };
-		15008DA71590B4AA001BBECB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008DA51590B4AA001BBECB /* 2.png */; };
-		15008DA81590B4AA001BBECB /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008DA61590B4AA001BBECB /* 2@2x.png */; };
 		15008DAF1590B8B8001BBECB /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008DAD1590B8B8001BBECB /* 5.png */; };
 		15008DB01590B8B8001BBECB /* 5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15008DAE1590B8B8001BBECB /* 5@2x.png */; };
 		15008DB41590B966001BBECB /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15008DB31590B965001BBECB /* loginViewController.m */; };
@@ -68,6 +66,7 @@
 		A00777F5159071250055399E /* contenidorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00777F4159071250055399E /* contenidorsViewController.m */; };
 		A01591C71590C21400EAFBD3 /* OK2.png in Resources */ = {isa = PBXBuildFile; fileRef = A01591C61590C21400EAFBD3 /* OK2.png */; };
 		A01591CD1590C50A00EAFBD3 /* reciclaPP.png in Resources */ = {isa = PBXBuildFile; fileRef = A01591CC1590C50A00EAFBD3 /* reciclaPP.png */; };
+		A01591D01590C7D700EAFBD3 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A01591CF1590C7D700EAFBD3 /* 2.png */; };
 		A0596F921590819B0009B33E /* fons-fusta.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596F911590819B0009B33E /* fons-fusta.png */; };
 		A0596F9C1590823A0009B33E /* boto-check-in.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596F941590823A0009B33E /* boto-check-in.png */; };
 		A0596F9D1590823A0009B33E /* caixa-arbres.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596F951590823A0009B33E /* caixa-arbres.png */; };
@@ -151,8 +150,6 @@
 		15008D9E1590A731001BBECB /* detailContenidorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailContenidorViewController.h; sourceTree = "<group>"; };
 		15008D9F1590A731001BBECB /* detailContenidorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailContenidorViewController.m; sourceTree = "<group>"; };
 		15008DA31590AC5E001BBECB /* liia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = liia.png; path = Imatges/liia.png; sourceTree = "<group>"; };
-		15008DA51590B4AA001BBECB /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = Imatges/2.png; sourceTree = "<group>"; };
-		15008DA61590B4AA001BBECB /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2@2x.png"; path = "Imatges/2@2x.png"; sourceTree = "<group>"; };
 		15008DAD1590B8B8001BBECB /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = Imatges/5.png; sourceTree = "<group>"; };
 		15008DAE1590B8B8001BBECB /* 5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "5@2x.png"; path = "Imatges/5@2x.png"; sourceTree = "<group>"; };
 		15008DB21590B965001BBECB /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
@@ -193,6 +190,7 @@
 		A00777F4159071250055399E /* contenidorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contenidorsViewController.m; sourceTree = "<group>"; };
 		A01591C61590C21400EAFBD3 /* OK2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OK2.png; sourceTree = "<group>"; };
 		A01591CC1590C50A00EAFBD3 /* reciclaPP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reciclaPP.png; sourceTree = "<group>"; };
+		A01591CF1590C7D700EAFBD3 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		A0596F911590819B0009B33E /* fons-fusta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fons-fusta.png"; path = "Imatges/fons-fusta.png"; sourceTree = "<group>"; };
 		A0596F941590823A0009B33E /* boto-check-in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "boto-check-in.png"; path = "Imatges/boto-check-in.png"; sourceTree = "<group>"; };
 		A0596F951590823A0009B33E /* caixa-arbres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "caixa-arbres.png"; path = "Imatges/caixa-arbres.png"; sourceTree = "<group>"; };
@@ -457,6 +455,7 @@
 		A0B9EF2A159072FC002F0457 /* Imatges */ = {
 			isa = PBXGroup;
 			children = (
+				A01591CF1590C7D700EAFBD3 /* 2.png */,
 				A01591C61590C21400EAFBD3 /* OK2.png */,
 				15008DBD1590BC2F001BBECB /* loginButton.png */,
 				15008DBE1590BC2F001BBECB /* loginButton@2x.png */,
@@ -471,8 +470,6 @@
 				A088BF331590A28D00845F35 /* tick.png */,
 				A088BF341590A28D00845F35 /* tick@2x.png */,
 				A0596FD915909F6A0009B33E /* cellBackground.png */,
-				15008DA51590B4AA001BBECB /* 2.png */,
-				15008DA61590B4AA001BBECB /* 2@2x.png */,
 				15008DA31590AC5E001BBECB /* liia.png */,
 				15008D7215909EDC001BBECB /* barrarosa@2x.png */,
 				15008D5A159096C4001BBECB /* 1A.png */,
@@ -656,8 +653,6 @@
 				15008D9C1590A2B2001BBECB /* verd.png in Resources */,
 				15008D9D1590A2B2001BBECB /* verd@2x.png in Resources */,
 				15008DA41590AC5E001BBECB /* liia.png in Resources */,
-				15008DA71590B4AA001BBECB /* 2.png in Resources */,
-				15008DA81590B4AA001BBECB /* 2@2x.png in Resources */,
 				A088BF651590B7E700845F35 /* zbar-back.png in Resources */,
 				A088BF661590B7E700845F35 /* zbar-help.html in Resources */,
 				A088BF671590B7E700845F35 /* zbar-helpicons.png in Resources */,
@@ -672,6 +667,7 @@
 				15008DBF1590BC2F001BBECB /* loginButton.png in Resources */,
 				15008DC01590BC2F001BBECB /* loginButton@2x.png in Resources */,
 				A01591CD1590C50A00EAFBD3 /* reciclaPP.png in Resources */,
+				A01591D01590C7D700EAFBD3 /* 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

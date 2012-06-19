@@ -61,7 +61,7 @@
     self.iBarriList = [info valueForKey:@"barri"];
     self.iMobilList = [info valueForKey:@"mobil"];
     
-    [self showBarriPoints];
+    [self showMobilPoints];
 }
 
 - (IBAction) buttonBarriPressed:(UIButton *)sender
