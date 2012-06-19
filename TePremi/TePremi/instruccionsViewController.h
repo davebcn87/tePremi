@@ -10,4 +10,6 @@
 
 @interface instruccionsViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *iSroll;
+
 @end
