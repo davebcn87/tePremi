@@ -14,7 +14,10 @@
     MKMapView *iMapView;
 }
 
-@property(nonatomic, retain) IBOutlet MKMapView *iMapView;
+@property(nonatomic, strong) IBOutlet MKMapView *iMapView;
+@property(nonatomic, strong) NSArray *iZonaList;
+@property(nonatomic, strong) NSArray *iBarriList;
+@property(nonatomic, strong) NSArray *iMobilList;
 
 
 @end

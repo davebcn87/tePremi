@@ -10,6 +10,7 @@
 		15661FCC159079390015B6B6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15661FCB159079390015B6B6 /* CoreLocation.framework */; };
 		15661FCF1590793F0015B6B6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15661FCE1590793F0015B6B6 /* MapKit.framework */; };
 		15661FD315907A890015B6B6 /* LocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 15661FD215907A890015B6B6 /* LocationAnnotation.m */; };
+		1566200415907D080015B6B6 /* puntsverds.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1566200315907D080015B6B6 /* puntsverds.txt */; };
 		15D6F2F315906E7E0043FDF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D6F2F215906E7E0043FDF1 /* UIKit.framework */; };
 		15D6F2F515906E7E0043FDF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D6F2F415906E7E0043FDF1 /* Foundation.framework */; };
 		15D6F2F715906E7E0043FDF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D6F2F615906E7E0043FDF1 /* CoreGraphics.framework */; };
@@ -41,6 +42,7 @@
 		15661FCE1590793F0015B6B6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		15661FD115907A890015B6B6 /* LocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAnnotation.h; sourceTree = "<group>"; };
 		15661FD215907A890015B6B6 /* LocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAnnotation.m; sourceTree = "<group>"; };
+		1566200315907D080015B6B6 /* puntsverds.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = puntsverds.txt; sourceTree = "<group>"; };
 		15D6F2EE15906E7E0043FDF1 /* TePremi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TePremi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D6F2F215906E7E0043FDF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		15D6F2F415906E7E0043FDF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -133,6 +135,7 @@
 		15D6F2F815906E7E0043FDF1 /* TePremi */ = {
 			isa = PBXGroup;
 			children = (
+				1566200315907D080015B6B6 /* puntsverds.txt */,
 				15D6F30115906E7E0043FDF1 /* AppDelegate.h */,
 				15D6F30215906E7E0043FDF1 /* AppDelegate.m */,
 				15D6F30415906E7E0043FDF1 /* MainStoryboard.storyboard */,
@@ -255,6 +258,7 @@
 				A0B9EF321590739D002F0457 /* instruccions.png in Resources */,
 				A0B9EF331590739D002F0457 /* mapa.png in Resources */,
 				A0B9EF341590739D002F0457 /* usuari.png in Resources */,
+				1566200415907D080015B6B6 /* puntsverds.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

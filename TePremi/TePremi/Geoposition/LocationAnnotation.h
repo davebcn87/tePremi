@@ -11,6 +11,6 @@
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *subtitle;
 
-- (id)initWithCLRegion:(CLRegion *)newRegion andFileName:(NSString *)aFileName;
+- (id)initWithCLRegion:(CLRegion *)newRegion andAddress:(NSString *)aAddress andTime:(NSString *)aTime;
 
 @end
