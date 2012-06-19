@@ -10,4 +10,6 @@
 
 @interface contacteViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *iSroll;
+
 @end

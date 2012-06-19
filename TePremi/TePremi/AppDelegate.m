@@ -13,7 +13,11 @@
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{    
+    UITabBarController *tabController = [self.window.rootViewController.storyboard instantiateViewControllerWithIdentifier:@"tabbar"];
+    [tabController setSelectedIndex:2];
+
+    
     // Override point for customization after application launch.
     return YES;
 }

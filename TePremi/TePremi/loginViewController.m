@@ -1,20 +1,20 @@
 //
-//  instruccionsViewController.m
+//  loginViewController.m
 //  TePremi
 //
-//  Created by David Cortés Fulla on 19/06/12.
+//  Created by Xavier Pinyol on 19/06/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "instruccionsViewController.h"
+#import "loginViewController.h"
 
-@interface instruccionsViewController ()
+@interface loginViewController ()
 
 @end
 
-@implementation instruccionsViewController
+@implementation loginViewController
 
-@synthesize iSroll;
+@synthesize iTelefon, iIdentificador;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,8 +29,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
-    [iSroll setContentSize:CGSizeMake(320, 774)];
 }
 
 - (void)viewDidUnload
@@ -42,6 +40,18 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [iTelefon resignFirstResponder];
+    [iIdentificador resignFirstResponder];
+    return YES;
+}
+
+- (IBAction) login:(id)sender
+{
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 @end

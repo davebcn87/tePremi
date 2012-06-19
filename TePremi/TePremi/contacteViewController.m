@@ -14,6 +14,9 @@
 
 @implementation contacteViewController
 
+
+@synthesize iSroll;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,6 +30,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    [iSroll setContentSize:CGSizeMake(320, 558)];
 }
 
 - (void)viewDidUnload
