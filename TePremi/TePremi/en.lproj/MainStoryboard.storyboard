@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Contenidors" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="20">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Que tirar" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="20">
                                 <rect key="frame" x="54" y="184" width="212" height="43"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -26,7 +26,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="7"/>
+                    <tabBarItem key="tabBarItem" title="Que tirar" image="containers.png" id="7"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="633" y="-118"/>
@@ -40,7 +40,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Instruccions" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="22">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Avantatges" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="22">
                                 <rect key="frame" x="54" y="184" width="212" height="43"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -51,7 +51,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="6"/>
+                    <tabBarItem key="tabBarItem" title="Avantatges" image="instruccions.png" id="6"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="633" y="518"/>
@@ -65,7 +65,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Contacte" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="IGa-jl-Vo8">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Informacio" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="IGa-jl-Vo8">
                                 <rect key="frame" x="54" y="208" width="212" height="43"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -76,7 +76,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="SI3-HI-TKy"/>
+                    <tabBarItem key="tabBarItem" title="Informació" image="info.png" id="SI3-HI-TKy"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="639" y="2283"/>
@@ -90,7 +90,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Mapa" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="rRk-pb-cJb">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Deixalleries" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="rRk-pb-cJb">
                                 <rect key="frame" x="54" y="208" width="212" height="43"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -101,7 +101,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="8Y5-Yo-hSl"/>
+                    <tabBarItem key="tabBarItem" title="Deixalleries" image="mapa.png" id="8Y5-Yo-hSl"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="639" y="1692"/>
@@ -115,7 +115,7 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Check in" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="yiE-GH-Muo">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Usuari" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="yiE-GH-Muo">
                                 <rect key="frame" x="54" y="208" width="212" height="43"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -126,7 +126,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="ZbD-fT-Yjk"/>
+                    <tabBarItem key="tabBarItem" title="Usuari" image="usuari.png" id="ZbD-fT-Yjk"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="639" y="1094"/>
@@ -155,8 +155,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="16" height="16"/>
-        <image name="second" width="16" height="16"/>
+        <image name="containers.png" width="18" height="21"/>
+        <image name="info.png" width="18" height="18"/>
+        <image name="instruccions.png" width="20" height="18"/>
+        <image name="mapa.png" width="13" height="21"/>
+        <image name="usuari.png" width="25" height="17"/>
     </resources>
     <classes>
         <class className="checkinViewController" superclassName="UIViewController">

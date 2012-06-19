@@ -22,6 +22,16 @@
 		A00777EF159071140055399E /* checkinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00777EE159071140055399E /* checkinViewController.m */; };
 		A00777F21590711B0055399E /* instruccionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00777F11590711B0055399E /* instruccionsViewController.m */; };
 		A00777F5159071250055399E /* contenidorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00777F4159071250055399E /* contenidorsViewController.m */; };
+		A0B9EF23159072C8002F0457 /* containers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF1E159072C8002F0457 /* containers@2x.png */; };
+		A0B9EF24159072C8002F0457 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF1F159072C8002F0457 /* info@2x.png */; };
+		A0B9EF25159072C8002F0457 /* instruccions@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF20159072C8002F0457 /* instruccions@2x.png */; };
+		A0B9EF26159072C8002F0457 /* mapa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF21159072C8002F0457 /* mapa@2x.png */; };
+		A0B9EF29159072E2002F0457 /* usuari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF28159072E2002F0457 /* usuari@2x.png */; };
+		A0B9EF301590739D002F0457 /* containers.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF2B1590739D002F0457 /* containers.png */; };
+		A0B9EF311590739D002F0457 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF2C1590739D002F0457 /* info.png */; };
+		A0B9EF321590739D002F0457 /* instruccions.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF2D1590739D002F0457 /* instruccions.png */; };
+		A0B9EF331590739D002F0457 /* mapa.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF2E1590739D002F0457 /* mapa.png */; };
+		A0B9EF341590739D002F0457 /* usuari.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF2F1590739D002F0457 /* usuari.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +60,16 @@
 		A00777F11590711B0055399E /* instruccionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = instruccionsViewController.m; sourceTree = "<group>"; };
 		A00777F3159071250055399E /* contenidorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contenidorsViewController.h; sourceTree = "<group>"; };
 		A00777F4159071250055399E /* contenidorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contenidorsViewController.m; sourceTree = "<group>"; };
+		A0B9EF1E159072C8002F0457 /* containers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "containers@2x.png"; path = "Imatges/containers@2x.png"; sourceTree = "<group>"; };
+		A0B9EF1F159072C8002F0457 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info@2x.png"; path = "Imatges/info@2x.png"; sourceTree = "<group>"; };
+		A0B9EF20159072C8002F0457 /* instruccions@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "instruccions@2x.png"; path = "Imatges/instruccions@2x.png"; sourceTree = "<group>"; };
+		A0B9EF21159072C8002F0457 /* mapa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapa@2x.png"; path = "Imatges/mapa@2x.png"; sourceTree = "<group>"; };
+		A0B9EF28159072E2002F0457 /* usuari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "usuari@2x.png"; path = "Imatges/usuari@2x.png"; sourceTree = "<group>"; };
+		A0B9EF2B1590739D002F0457 /* containers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = containers.png; path = Imatges/containers.png; sourceTree = "<group>"; };
+		A0B9EF2C1590739D002F0457 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = Imatges/info.png; sourceTree = "<group>"; };
+		A0B9EF2D1590739D002F0457 /* instruccions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instruccions.png; path = Imatges/instruccions.png; sourceTree = "<group>"; };
+		A0B9EF2E1590739D002F0457 /* mapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapa.png; path = Imatges/mapa.png; sourceTree = "<group>"; };
+		A0B9EF2F1590739D002F0457 /* usuari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usuari.png; path = Imatges/usuari.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +132,7 @@
 		15D6F2F915906E7E0043FDF1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A0B9EF2A159072FC002F0457 /* Imatges */,
 				15D6F2FA15906E7E0043FDF1 /* TePremi-Info.plist */,
 				15D6F2FB15906E7E0043FDF1 /* InfoPlist.strings */,
 				15D6F2FE15906E7E0043FDF1 /* main.m */,
@@ -135,6 +156,23 @@
 				A00777F4159071250055399E /* contenidorsViewController.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A0B9EF2A159072FC002F0457 /* Imatges */ = {
+			isa = PBXGroup;
+			children = (
+				A0B9EF2B1590739D002F0457 /* containers.png */,
+				A0B9EF2C1590739D002F0457 /* info.png */,
+				A0B9EF2D1590739D002F0457 /* instruccions.png */,
+				A0B9EF2E1590739D002F0457 /* mapa.png */,
+				A0B9EF2F1590739D002F0457 /* usuari.png */,
+				A0B9EF1E159072C8002F0457 /* containers@2x.png */,
+				A0B9EF1F159072C8002F0457 /* info@2x.png */,
+				A0B9EF20159072C8002F0457 /* instruccions@2x.png */,
+				A0B9EF21159072C8002F0457 /* mapa@2x.png */,
+				A0B9EF28159072E2002F0457 /* usuari@2x.png */,
+			);
+			name = Imatges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +229,16 @@
 				15D6F30615906E7E0043FDF1 /* MainStoryboard.storyboard in Resources */,
 				15D6F31215906E7E0043FDF1 /* second.png in Resources */,
 				15D6F31415906E7E0043FDF1 /* second@2x.png in Resources */,
+				A0B9EF23159072C8002F0457 /* containers@2x.png in Resources */,
+				A0B9EF24159072C8002F0457 /* info@2x.png in Resources */,
+				A0B9EF25159072C8002F0457 /* instruccions@2x.png in Resources */,
+				A0B9EF26159072C8002F0457 /* mapa@2x.png in Resources */,
+				A0B9EF29159072E2002F0457 /* usuari@2x.png in Resources */,
+				A0B9EF301590739D002F0457 /* containers.png in Resources */,
+				A0B9EF311590739D002F0457 /* info.png in Resources */,
+				A0B9EF321590739D002F0457 /* instruccions.png in Resources */,
+				A0B9EF331590739D002F0457 /* mapa.png in Resources */,
+				A0B9EF341590739D002F0457 /* usuari.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
