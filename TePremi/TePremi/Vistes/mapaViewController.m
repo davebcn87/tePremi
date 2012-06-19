@@ -18,6 +18,7 @@
 
 @synthesize iMapView;
 @synthesize iZonaList, iBarriList, iMobilList;
+@synthesize iZonaPins, iBarriPins, iMobilPins;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,6 +33,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    self.iZonaPins = [[NSMutableArray alloc] init];
+    self.iBarriPins = [[NSMutableArray alloc] init];
+    self.iMobilPins = [[NSMutableArray alloc] init];
     
     [self performSelector:@selector(configureView) withObject:nil afterDelay:0.1];
 }
@@ -56,7 +61,58 @@
     self.iBarriList = [info valueForKey:@"barri"];
     self.iMobilList = [info valueForKey:@"mobil"];
     
+    [self showBarriPoints:nil];
+}
+
+- (IBAction) showBarriPoints:(id)sender
+{
+    localtionTypePin = EBarri;
+    [self showPoints:iBarriList];
+}
+
+- (IBAction) showZonaPoints:(id)sender
+{
+    localtionTypePin = EZona;
     [self showPoints:iZonaList];
+}
+
+- (IBAction) showMobilPoints:(id)sender
+{
+    localtionTypePin = EMobil;
+    [self showPoints:iMobilPins];
+}
+
+- (void) removeBarriPoints
+{
+    [self removePoints:iBarriPins];
+    [iBarriPins removeAllObjects];
+}
+
+- (void) removeZonaPoints
+{
+    [self removePoints:iZonaPins];
+    [iZonaPins removeAllObjects];
+}
+
+- (void) removeMobilPoints
+{
+    [self removePoints:iMobilPins];
+    [iMobilPins removeAllObjects];
+}
+
+- (void) removePoints:(NSArray *)aPointsList
+{
+    NSMutableArray *locs = [[NSMutableArray alloc] init];
+    for (id <MKAnnotation> annot in aPointsList)
+    {
+        if ( [annot isKindOfClass:[ MKUserLocation class]] ) {
+        }
+        else {
+            [locs addObject:annot];
+        }
+    }
+    
+    [iMapView removeAnnotations:locs];
 }
 
 - (void) showPoints:(NSArray *)aArray
@@ -107,6 +163,20 @@
     LocationAnnotation *annotation = [[LocationAnnotation alloc] initWithCLRegion:region andAddress:aAdress andTime:AHorari];
     [iMapView selectAnnotation:annotation animated:YES];
     [iMapView addAnnotation:annotation];
+    
+    switch (localtionTypePin) {
+        case EBarri:
+            [iBarriPins addObject:annotation];
+            break;
+        case EZona:
+            [iZonaPins addObject:annotation];
+            break;
+        case EMobil:
+            [iMobilPins addObject:annotation];
+            break;
+        default:
+            break;
+    }
 }
 
 - (CLLocationCoordinate2D) getLocationFromAddressString:(NSString*) addressStr {
@@ -143,6 +213,7 @@
         pinView.pinColor = MKPinAnnotationColorRed; 
         pinView.canShowCallout = YES;
         pinView.animatesDrop = YES;
+        pinView.tag = localtionTypePin;
     } 
     else {
         [iMapView.userLocation setTitle:@"I am here"];
