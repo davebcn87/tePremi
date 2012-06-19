@@ -65,6 +65,7 @@
 		A088BF361590A28D00845F35 /* tick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A088BF341590A28D00845F35 /* tick@2x.png */; };
 		A088BF391590B36100845F35 /* cancelar.png in Resources */ = {isa = PBXBuildFile; fileRef = A088BF371590B36100845F35 /* cancelar.png */; };
 		A088BF3A1590B36100845F35 /* continuar.png in Resources */ = {isa = PBXBuildFile; fileRef = A088BF381590B36100845F35 /* continuar.png */; };
+		A088BF411590B5E400845F35 /* ultimPasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A088BF401590B5E400845F35 /* ultimPasViewController.m */; };
 		A0B9EF23159072C8002F0457 /* containers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF1E159072C8002F0457 /* containers@2x.png */; };
 		A0B9EF24159072C8002F0457 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF1F159072C8002F0457 /* info@2x.png */; };
 		A0B9EF25159072C8002F0457 /* instruccions@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF20159072C8002F0457 /* instruccions@2x.png */; };
@@ -147,6 +148,8 @@
 		A088BF341590A28D00845F35 /* tick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tick@2x.png"; path = "Imatges/tick@2x.png"; sourceTree = "<group>"; };
 		A088BF371590B36100845F35 /* cancelar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancelar.png; path = Imatges/cancelar.png; sourceTree = "<group>"; };
 		A088BF381590B36100845F35 /* continuar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = continuar.png; path = Imatges/continuar.png; sourceTree = "<group>"; };
+		A088BF3F1590B5E400845F35 /* ultimPasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ultimPasViewController.h; sourceTree = "<group>"; };
+		A088BF401590B5E400845F35 /* ultimPasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ultimPasViewController.m; sourceTree = "<group>"; };
 		A0B9EF1E159072C8002F0457 /* containers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "containers@2x.png"; path = "Imatges/containers@2x.png"; sourceTree = "<group>"; };
 		A0B9EF1F159072C8002F0457 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info@2x.png"; path = "Imatges/info@2x.png"; sourceTree = "<group>"; };
 		A0B9EF20159072C8002F0457 /* instruccions@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "instruccions@2x.png"; path = "Imatges/instruccions@2x.png"; sourceTree = "<group>"; };
@@ -226,6 +229,8 @@
 				15D6F2F915906E7E0043FDF1 /* Supporting Files */,
 				A0B9EF1C159071B7002F0457 /* ViewControllers */,
 				A0596FD2159095010009B33E /* categories.plist */,
+				A088BF3F1590B5E400845F35 /* ultimPasViewController.h */,
+				A088BF401590B5E400845F35 /* ultimPasViewController.m */,
 			);
 			path = TePremi;
 			sourceTree = "<group>";
@@ -439,6 +444,7 @@
 				A00777F5159071250055399E /* contenidorsViewController.m in Sources */,
 				15661FD315907A890015B6B6 /* LocationAnnotation.m in Sources */,
 				A0596FCD159092C50009B33E /* categoriesViewController.m in Sources */,
+				A088BF411590B5E400845F35 /* ultimPasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

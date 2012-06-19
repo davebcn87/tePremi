@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
@@ -429,11 +428,11 @@
             </objects>
             <point key="canvasLocation" x="1391" y="1093"/>
         </scene>
-        <!--View Controller-->
+        <!--Ultim Pas View Controller-->
         <scene sceneID="k4V-QA-9Aq">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="63Z-zG-bkR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="l8O-3H-ape" sceneMemberID="viewController">
+                <viewController id="l8O-3H-ape" customClass="ultimPasViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g5e-J5-3PF">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -525,6 +524,9 @@
                 <relationship kind="action" name="buttonZonaPressed:"/>
                 <relationship kind="outlet" name="iMapView" candidateClass="MKMapView"/>
             </relationships>
+        </class>
+        <class className="ultimPasViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ultimPasViewController.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
