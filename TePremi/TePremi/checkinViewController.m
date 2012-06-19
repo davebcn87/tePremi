@@ -25,6 +25,10 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
 - (void)viewDidLoad
 {
     [scrollView setContentSize:CGSizeMake(320, 691)];
@@ -44,7 +48,7 @@
     categoriesViewController *categoriesVC = [self.storyboard instantiateViewControllerWithIdentifier:@"categoriesVC"];
     [self.navigationController pushViewController:categoriesVC animated:YES];
 }
-
+    
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
