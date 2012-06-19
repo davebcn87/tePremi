@@ -233,7 +233,7 @@ El que no s'hi pot llençar: bosses d'infusió, paper de cuina brut d'oli i rest
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="411"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="2.png" id="gYl-ue-DVb">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="22.png" id="gYl-ue-DVb">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="774"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
@@ -267,7 +267,7 @@ El que no s'hi pot llençar: bosses d'infusió, paper de cuina brut d'oli i rest
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="411"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="5.png" id="MLS-YF-Cd9">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="55.png" id="MLS-YF-Cd9">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="558"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
@@ -775,12 +775,12 @@ El que no s'hi pot llençar: bosses d'infusió, paper de cuina brut d'oli i rest
     <resources>
         <image name="1A.png" width="100" height="30"/>
         <image name="1R.png" width="100" height="30"/>
-        <image name="2.png" width="640" height="1548"/>
+        <image name="22.png" width="640" height="1548"/>
         <image name="2A.png" width="100" height="30"/>
         <image name="2R.png" width="100" height="30"/>
         <image name="3A.png" width="100" height="30"/>
         <image name="3R.png" width="100" height="30"/>
-        <image name="5.png" width="320" height="558"/>
+        <image name="55.png" width="640" height="1116"/>
         <image name="OK2.png" width="640" height="1533"/>
         <image name="barrarosa@2x.png" width="640" height="92"/>
         <image name="bg-firstview@2x.png" width="572" height="406"/>
