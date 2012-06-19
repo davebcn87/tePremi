@@ -8,7 +8,7 @@
 
 #import "checkinViewController.h"
 #import "categoriesViewController.h"
-
+#import "loginViewController.h"
 @interface checkinViewController ()
 
 @end
@@ -34,6 +34,9 @@
     [scrollView setContentSize:CGSizeMake(320, 691)];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+
+    loginViewController *loginVC = [self.storyboard instantiateViewControllerWithIdentifier:@"loginView"];
+    [self presentModalViewController:loginVC animated:NO];
 }
 
 - (void)viewDidUnload
