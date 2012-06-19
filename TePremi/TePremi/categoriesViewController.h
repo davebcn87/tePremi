@@ -1,5 +1,5 @@
 //
-//  checkinViewController.h
+//  categoriesViewController.h
 //  TePremi
 //
 //  Created by David Cortés Fulla on 19/06/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface checkinViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@interface categoriesViewController : UIViewController
 
 @end
