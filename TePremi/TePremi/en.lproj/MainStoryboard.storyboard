@@ -194,7 +194,7 @@ El que no s'hi pot llençar: bosses d'infusió, paper de cuina brut d'oli i rest
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Title" id="naT-0w-aOX">
+                                    <navigationItem id="naT-0w-aOX">
                                         <barButtonItem key="rightBarButtonItem" title="Tancar" style="done" id="fF2-la-Ma6">
                                             <connections>
                                                 <action selector="back:" destination="s62-Z4-lef" id="p8F-Vd-R4b"/>

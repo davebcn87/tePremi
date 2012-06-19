@@ -564,7 +564,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 15D6F2E815906E7E0043FDF1 /* Build configuration list for PBXProject "TePremi" */;
+			buildConfigurationList = 15D6F2E815906E7E0043FDF1 /* Build configuration list for PBXProject "ReciclaApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -798,7 +798,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15D6F2E815906E7E0043FDF1 /* Build configuration list for PBXProject "TePremi" */ = {
+		15D6F2E815906E7E0043FDF1 /* Build configuration list for PBXProject "ReciclaApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15D6F31515906E7E0043FDF1 /* Debug */,
