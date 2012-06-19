@@ -68,37 +68,47 @@
 {    
     sender.selected = !sender.selected;
     
-    [self buttonIsSelected:sender.selected forPins:iBarriPins];
-    [iBarriPins removeAllObjects];
+    if(sender.selected)
+    {
+        [self showBarriPoints];
+    }
+    else
+    {
+        [self removeBarriPoints];
+        [iBarriPins removeAllObjects];
+    }
 }
 
 - (IBAction) buttonZonaPressed:(UIButton *)sender
 {
     sender.selected = !sender.selected;
     
-    [self buttonIsSelected:sender.selected forPins:iZonaPins];
-    [iZonaPins removeAllObjects];
+    if(sender.selected)
+    {
+        [self showZonaPoints];
+    }
+    else
+    {
+        [self removeZonaPoints];
+        [iZonaPins removeAllObjects];
+    }
 }
 
 - (IBAction) buttonMobilPressed:(UIButton *)sender
 {
     sender.selected = !sender.selected;
-    
-    [self buttonIsSelected:sender.selected forPins:iMobilPins];
-    [iMobilPins removeAllObjects];
-}
 
-- (void) buttonIsSelected:(BOOL)aSelected forPins:(NSArray *)aPins
-{
-    if(aSelected)
+    if(sender.selected)
     {
-        [self showBarriPoints];
+        [self showMobilPoints];
     }
     else
     {
-        [self removePoints:aPins];
-    }
+        [self removeMobilPoints];
+        [iMobilPins removeAllObjects];
+    }    
 }
+
 
 - (void) showBarriPoints
 {
@@ -115,7 +125,7 @@
 - (void) showMobilPoints
 {
     localtionTypePin = EMobil;
-    [self showPoints:iMobilPins];
+    [self showPoints:iMobilList];
 }
 
 - (void) removeBarriPoints
@@ -241,19 +251,21 @@
     MKPinAnnotationView *pinView = nil; 
     if(annotation != iMapView.userLocation) 
     {
-        static NSString *defaultPinID = @"com.invasivecode.pin";
+        static NSString *defaultPinID = @"Pins";
         pinView = (MKPinAnnotationView *)[iMapView dequeueReusableAnnotationViewWithIdentifier:defaultPinID];
-        if ( pinView == nil ) pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:defaultPinID];
+        if ( pinView == nil ) {
+            pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:defaultPinID];
+        }
         
         switch (localtionTypePin) {
             case EZona:
                 pinView.pinColor = MKPinAnnotationColorPurple; 
                 break;
             case EMobil:
-                pinView.pinColor = MKPinAnnotationColorRed; 
+                pinView.pinColor = MKPinAnnotationColorGreen; 
                 break;
             case EBarri:
-                pinView.pinColor = MKPinAnnotationColorGreen; 
+                pinView.pinColor = MKPinAnnotationColorRed; 
                 break;
                 
             default:
