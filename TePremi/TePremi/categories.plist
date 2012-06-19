@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Aerosols i esprais</string>
+	<string>Aparells elèctric i electrònics</string>
+	<string>Ampolles de cava</string>
+	<string>Bateries de cotxe</string>
+	<string>Cables</string>
+	<string>Calçat</string>
+	<string>Càpsules de cafè monodosi</string>
+	<string>Cartró de grans dimensions</string>
+	<string>Cartutxos de tinta i tòners</string>
+	<string>CD i DVD</string>
+	<string>Cintes de video i cassets</string>
+	<string>Complements de vestir</string>
+	<string>Cosmètics</string>
+	<string>Electrodomèstics grans</string>
+	<string>Ferralla domèstica petita</string>
+	<string>Fibrociment amb amiant</string>
+	<string>Filtres de vehicles</string>
+	<string>Fitosanitaris, herbicides i pesticides</string>
+	<string>Fluorescents i bombetes</string>
+	<string>Fusta, trastos i mobles</string>
+	<string>Matalassos</string>
+	<string>Metalls</string>
+	<string>Olis de cuina</string>
+	<string>Olis de motor</string>
+	<string>Piles</string>
+	<string>Pintures, coles, vernissos, dissolvents</string>
+	<string>Plàstic: galledes, garrafes</string>
+	<string>Pneumàtics petits</string>
+	<string>Porexpan net</string>
+	<string>Radiografies</string>
+	<string>Restes de poda i jardineria</string>
+	<string>Restes de productes de neteja</string>
+	<string>Roba</string>
+	<string>Runa</string>
+	<string>Termòmetres</string>
+	<string>Televisors i monitors</string>
+	<string>Vidre pla, miralls, finestres...</string>
+</array>
+</plist>

@@ -42,9 +42,9 @@
 - (IBAction) checkIn:(id)sender
 {
     categoriesViewController *categoriesVC = [self.storyboard instantiateViewControllerWithIdentifier:@"categoriesVC"];
-    [self.navigationController pushViewController:categoriesVC animated:YES];
+    [self presentModalViewController:categoriesVC animated:YES];
 }
-
+    
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);

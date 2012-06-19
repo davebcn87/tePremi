@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface categoriesViewController : UIViewController
+@interface categoriesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
