@@ -1,17 +1,21 @@
 {"mobil" : [
-{"adreça":"Marina/Almogàvers, Barcelona","horari":"dijous de 16.00 a 19.30 h"}
+{"adreça":"Marina/Almogàvers, Barcelona","horari":"dijous de 16.00 a 19.30 h"},
+{"adreça":"Lepant/Taxdirt, Barcelona","horari":"dimecres de 16.00 a 19.30 h"},
+{"adreça":"Mercat de Galpany, Barcelona","horari":"dimecres de 8.30 a 14.00 h"},
+{"adreça":"Passatge de Tossa / Lisboa, Barcelona","horari":"dimecres de 8.30 a 14.00 h"}
 ],
 "barri" : [
 {"adreça":"Clot, Barcelona"},
 {"adreça":"Poblenou, Barcelona"},
-{"adreça":"Sant Martí de Provençals, Barcelona"}
+{"adreça":"Sant Martí de Provençals, Barcelona"},
+{"adreça":"Horta-Carmel, Barcelona"},
+{"adreça":"Turó de la Peira, Barcelona"}
 ],
 "zona" : [
 {"adreça":"Forum, Barcelona"},
 {"adreça":"Collserola, Barcelona"},
+{"adreça":"Sant Andreu, Barcelona"},
+{"adreça":"Les Corts - Pedralbes, Barcelona"},
 {"adreça":"Montjuïc, Barcelona"}
-],
-"escolar" : [
-{"adreça":"","horari":""}
-],
+]
 }

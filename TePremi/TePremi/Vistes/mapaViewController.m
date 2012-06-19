@@ -61,22 +61,58 @@
     self.iBarriList = [info valueForKey:@"barri"];
     self.iMobilList = [info valueForKey:@"mobil"];
     
-    [self showBarriPoints:nil];
+    [self showBarriPoints];
 }
 
-- (IBAction) showBarriPoints:(id)sender
+- (IBAction) buttonBarriPressed:(UIButton *)sender
+{    
+    sender.selected = !sender.selected;
+    
+    [self buttonIsSelected:sender.selected forPins:iBarriPins];
+    [iBarriPins removeAllObjects];
+}
+
+- (IBAction) buttonZonaPressed:(UIButton *)sender
+{
+    sender.selected = !sender.selected;
+    
+    [self buttonIsSelected:sender.selected forPins:iZonaPins];
+    [iZonaPins removeAllObjects];
+}
+
+- (IBAction) buttonMobilPressed:(UIButton *)sender
+{
+    sender.selected = !sender.selected;
+    
+    [self buttonIsSelected:sender.selected forPins:iMobilPins];
+    [iMobilPins removeAllObjects];
+}
+
+- (void) buttonIsSelected:(BOOL)aSelected forPins:(NSArray *)aPins
+{
+    if(aSelected)
+    {
+        [self showBarriPoints];
+    }
+    else
+    {
+        [self removePoints:aPins];
+    }
+}
+
+- (void) showBarriPoints
 {
     localtionTypePin = EBarri;
     [self showPoints:iBarriList];
 }
 
-- (IBAction) showZonaPoints:(id)sender
+- (void) showZonaPoints
 {
     localtionTypePin = EZona;
     [self showPoints:iZonaList];
 }
 
-- (IBAction) showMobilPoints:(id)sender
+- (void) showMobilPoints
 {
     localtionTypePin = EMobil;
     [self showPoints:iMobilPins];
@@ -129,7 +165,6 @@
 
 - (NSDictionary *) downloadMapaInfo
 {
-    
     // LOCAL
     NSString *pathFile = [[NSBundle mainBundle] pathForResource:@"puntsverds" ofType:@"txt"];
     
@@ -210,7 +245,20 @@
         pinView = (MKPinAnnotationView *)[iMapView dequeueReusableAnnotationViewWithIdentifier:defaultPinID];
         if ( pinView == nil ) pinView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:defaultPinID];
         
-        pinView.pinColor = MKPinAnnotationColorRed; 
+        switch (localtionTypePin) {
+            case EZona:
+                pinView.pinColor = MKPinAnnotationColorPurple; 
+                break;
+            case EMobil:
+                pinView.pinColor = MKPinAnnotationColorRed; 
+                break;
+            case EBarri:
+                pinView.pinColor = MKPinAnnotationColorGreen; 
+                break;
+                
+            default:
+                break;
+        }
         pinView.canShowCallout = YES;
         pinView.animatesDrop = YES;
         pinView.tag = localtionTypePin;
