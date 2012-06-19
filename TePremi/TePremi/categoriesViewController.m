@@ -14,6 +14,7 @@
 @end
 
 @implementation categoriesViewController
+@synthesize scrollView = _scrollView;
 
 @synthesize categories = _categories;
 @synthesize seleccionades = _seleccionades;
@@ -48,13 +49,14 @@
 
 - (void)viewDidLoad
 {
-
+    [self.scrollView setContentSize:CGSizeMake(320, 2.261)];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
 
 - (void)viewDidUnload
 {
+    [self setScrollView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -70,6 +72,7 @@
 {
     return 1;
 }
+
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *categoria = [tableView dequeueReusableCellWithIdentifier:@"categoriaCell"];
@@ -77,8 +80,13 @@
     UILabel *titolCat = (UILabel *)[categoria viewWithTag:1];
     titolCat.text = [self.categories objectAtIndex:indexPath.row];
     
-    UIImageView *selected = (UIImageView *)[categoria viewWithTag:2];
-    if ([[self.seleccionades objectAtIndex:indexPath.row] boolValue]) selected.hidden = YES;
+    //UIImageView *selected = (UIImageView *)[categoria viewWithTag:2];
+    if ([[self.seleccionades objectAtIndex:indexPath.row] boolValue]){
+        categoria.accessoryType = UITableViewCellAccessoryCheckmark;
+    }
+    else {
+        categoria.accessoryType = UITableViewCellAccessoryNone;
+    }
     
     return categoria;
 }

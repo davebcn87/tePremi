@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface categoriesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end

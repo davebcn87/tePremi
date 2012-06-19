@@ -59,6 +59,7 @@
 		A0596FCA1590907B0009B33E /* queHasPortat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596FC81590907B0009B33E /* queHasPortat@2x.png */; };
 		A0596FCD159092C50009B33E /* categoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0596FCC159092C50009B33E /* categoriesViewController.m */; };
 		A0596FD3159095020009B33E /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0596FD2159095010009B33E /* categories.plist */; };
+		A0596FDA15909F6A0009B33E /* cellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A0596FD915909F6A0009B33E /* cellBackground.png */; };
 		A0B9EF23159072C8002F0457 /* containers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF1E159072C8002F0457 /* containers@2x.png */; };
 		A0B9EF24159072C8002F0457 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF1F159072C8002F0457 /* info@2x.png */; };
 		A0B9EF25159072C8002F0457 /* instruccions@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0B9EF20159072C8002F0457 /* instruccions@2x.png */; };
@@ -135,6 +136,7 @@
 		A0596FCB159092C50009B33E /* categoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = categoriesViewController.h; sourceTree = "<group>"; };
 		A0596FCC159092C50009B33E /* categoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = categoriesViewController.m; sourceTree = "<group>"; };
 		A0596FD2159095010009B33E /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		A0596FD915909F6A0009B33E /* cellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cellBackground.png; path = Imatges/cellBackground.png; sourceTree = "<group>"; };
 		A0B9EF1E159072C8002F0457 /* containers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "containers@2x.png"; path = "Imatges/containers@2x.png"; sourceTree = "<group>"; };
 		A0B9EF1F159072C8002F0457 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info@2x.png"; path = "Imatges/info@2x.png"; sourceTree = "<group>"; };
 		A0B9EF20159072C8002F0457 /* instruccions@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "instruccions@2x.png"; path = "Imatges/instruccions@2x.png"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 		A0B9EF2A159072FC002F0457 /* Imatges */ = {
 			isa = PBXGroup;
 			children = (
+				A0596FD915909F6A0009B33E /* cellBackground.png */,
 				15008D5A159096C4001BBECB /* 1A.png */,
 				15008D5B159096C4001BBECB /* 1A@2x.png */,
 				15008D5C159096C4001BBECB /* 1R.png */,
@@ -383,12 +386,6 @@
 				A0596FC91590907B0009B33E /* queHasPortat.png in Resources */,
 				A0596FCA1590907B0009B33E /* queHasPortat@2x.png in Resources */,
 				1566200415907D080015B6B6 /* puntsverds.txt in Resources */,
-				15008D4E15909368001BBECB /* 1A.png in Resources */,
-				15008D4F15909368001BBECB /* 1R.png in Resources */,
-				15008D5015909368001BBECB /* 2A.png in Resources */,
-				15008D5115909368001BBECB /* 2R.png in Resources */,
-				15008D5215909368001BBECB /* 3A.png in Resources */,
-				15008D5315909368001BBECB /* 3R.png in Resources */,
 				A0596FD3159095020009B33E /* categories.plist in Resources */,
 				15008D66159096C4001BBECB /* 1A.png in Resources */,
 				15008D67159096C4001BBECB /* 1A@2x.png in Resources */,
@@ -402,6 +399,7 @@
 				15008D6F159096C4001BBECB /* 3A@2x.png in Resources */,
 				15008D70159096C4001BBECB /* 3R.png in Resources */,
 				15008D71159096C4001BBECB /* 3R@2x.png in Resources */,
+				A0596FDA15909F6A0009B33E /* cellBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
